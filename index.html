@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="search"
+          class="form-control"
+          autocomplete="off"
+          autofocus="on"
+          id="city-input"
+          placeholder="Search for a city"
+        />
+        <button
+          type="button"
+          class="btn btn-secondary btn-sm"
+          id="current-location-weather"
+        >
+          Current Location Weather
+        </button>
+      </form>
+      <div class="row">
+        <div class="col">
+          <h1>
+            City
+          </h1>
+          <ul>
+            <li id="current-date"></li>
+            <li id="weather-description"></li>
+            <hr />
+            <li>Humidity: <span id="humidity"></span></li>
+            <li>Wind: <span id="wind"></span></li>
+          </ul>
+        </div>
+        <div class="vertical"></div>
+        <div class="col">
+          <div class="right-side-top-badge">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="cloudy"
+            />
+          </div>
+
+          <br />
+          <div class="right-side-badge">
+            <span id="current-temperature">21</span>
+            <a href="" id="temperature-c">°C</a> /
+            <a href="" id="temperature-f">°F</a>
+          </div>
+        </div>
+      </div>
+      <p><em>There's no such thing as bad weather, only bad clothes!</em>🤡</p>
+      <hr />
+      <h3>
+        Be Prepared For:
+      </h3>
+      <div class="row">
+        <div class="col">
+          <div class="badge">
+            Monday<br />80°F
+            <hr />
+            ☁
+          </div>
+        </div>
+        <div class="col">
+          <div class="badge">
+            Tuesday<br />
+            43°F
+            <hr />
+            💨
+          </div>
+        </div>
+        <div class="col">
+          <div class="badge">
+            Wednesday<br />
+            99°F
+            <hr />
+            🔥
+          </div>
+        </div>
+        <div class="col">
+          <div class="badge">
+            Thursaday<br />
+            23°F
+            <hr />
+            ❄
+          </div>
+        </div>
+        <div class="col">
+          <div class="badge">
+            Friday<br />
+            67°F
+            <hr />
+            🌞
+          </div>
+        </div>
+      </div>
+      <footer>
+        *it's impossible to be prepared for Chicago weather! Good luck...
+      </footer>
+    </div>
+  </body>
+  <script type="text/javascript" src="src/index.js"></script>
+</html>

@@ -1,0 +1,83 @@
+body {
+  margin: 0 auto;
+  margin-bottom: 27%;
+  background-position: 100%;
+  background: linear-gradient(#fddb92 0%, #d1fdff 100%);
+  font-family: "Quicksand", sans-serif;
+  width: 680px;
+}
+p {
+  text-align: center;
+}
+footer {
+  font-size: x-small;
+  text-align: right;
+}
+ul {
+  list-style: none;
+  padding: 2px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+button {
+  margin-top: 3px;
+}
+.container {
+  border: 1px solid #d3d2ac;
+  border-radius: 3%;
+  padding: 30px;
+}
+.vertical {
+  border-right: 1px solid #d3d2ac;
+  height: 200px;
+  position: relative center;
+  left: 50%;
+}
+.badge {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #d3d2ac;
+  background-image: linear-gradient(#fddb92 0%, #d1fdff 100%);
+}
+.right-side-badge {
+  height: 100px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 17px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #d3d2ac;
+  background-image: linear-gradient(#fddb92 0%, #d1fdff 100%);
+}
+.form-control.ds-input {
+  padding: 20px;
+  margin-bottom: 35px;
+}
+.form-control.ds-input {
+  background: #e0d8c7;
+}
+.col {
+  size: 100%;
+}
+.right-side-top-badge {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #d3d2ac;
+  background-image: linear-gradient(#fddb92 0%, #d1fdff 100%);
+  font-size: 45px;
+}
